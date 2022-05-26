@@ -8,12 +8,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.Iterator;
 
 import static javax.swing.UIManager.get;
 
 
-public class TcDataDriven {
+public class xmlDataDriven {
 
 
 
