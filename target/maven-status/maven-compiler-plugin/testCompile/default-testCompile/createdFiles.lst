@@ -1,2 +1,4 @@
-restTCs.class
-TcDataDriven.class
+xmlDataDriven.class
+xmlRestAssuredResponse.class
+jsonDataDriven.class
+jsonRestAssuredResponse.class

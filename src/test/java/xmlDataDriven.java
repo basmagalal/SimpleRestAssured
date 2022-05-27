@@ -1,4 +1,4 @@
-import DataReader.ExelReader;
+import DataReader.xmlExcelReader;
 import io.restassured.RestAssured;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
@@ -19,7 +19,7 @@ public class xmlDataDriven {
     @DataProvider(name = "excelsheet")
     public Object[][] readExcel() throws IOException, InvalidFormatException {
 
-        ExelReader exelReader=new ExelReader();
+        xmlExcelReader exelReader=new xmlExcelReader();
         return  exelReader.readXsls();
     }
 

@@ -1,1 +1,2 @@
-DataReader\ExelReader.class
+DataReader\xmlExcelReader.class
+DataReader\jsonExcelReader.class
